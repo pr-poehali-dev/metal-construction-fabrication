@@ -48,6 +48,11 @@ const Index = () => {
       area: '4000 мм'
     },
     {
+      name: 'Вальцовочный станок',
+      power: '3-вальцовый',
+      area: 'до 3000 мм'
+    },
+    {
       name: 'Сварочные роботы',
       power: 'TIG/MIG',
       area: 'до 6 метров'
@@ -329,7 +334,7 @@ const Index = () => {
       <section id="equipment" className="py-20 px-4 bg-card">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16">Наше оборудование</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {equipment.map((item, index) => (
               <Card key={index} className="p-8 text-center hover:shadow-xl transition-shadow">
                 <Icon name="Settings" size={64} className="text-primary mx-auto mb-6" />
