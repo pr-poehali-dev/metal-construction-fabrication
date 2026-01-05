@@ -101,10 +101,24 @@ const Index = () => {
       category: 'Металлоконструкции',
       image: 'https://cdn.poehali.dev/projects/c5a00030-2e2f-4bd4-bd81-dd1dd65ca6ff/files/8e2e50ce-a00d-45c2-907e-51d9b08ab8f6.jpg',
       weight: '95 тонн'
+    },
+    {
+      id: 7,
+      title: 'Цилиндрические обечайки',
+      category: 'Вальцовка',
+      image: 'https://cdn.poehali.dev/projects/c5a00030-2e2f-4bd4-bd81-dd1dd65ca6ff/files/95682018-e08a-46d4-8715-ef481aa38e65.jpg',
+      weight: '6 тонн'
+    },
+    {
+      id: 8,
+      title: 'Вентиляционные трубы',
+      category: 'Вальцовка',
+      image: 'https://cdn.poehali.dev/projects/c5a00030-2e2f-4bd4-bd81-dd1dd65ca6ff/files/3ca58561-bdd2-4c16-bb21-e2742e666e91.jpg',
+      weight: '3 тонны'
     }
   ];
 
-  const categories = ['Все', 'Металлоконструкции', 'Лазерная резка', 'Гибка металла', 'Ёмкости'];
+  const categories = ['Все', 'Металлоконструкции', 'Лазерная резка', 'Гибка металла', 'Вальцовка', 'Ёмкости'];
 
   const filteredProjects = activeFilter === 'Все' 
     ? projects 
