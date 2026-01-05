@@ -25,6 +25,11 @@ const Index = () => {
       description: 'Услуги гибки металлических заготовок на листогибе с ЧПУ'
     },
     {
+      icon: 'RotateCw',
+      title: 'Вальцовка металла',
+      description: 'Вальцовка металлических листов для изготовления цилиндрических изделий'
+    },
+    {
       icon: 'Container',
       title: 'Ёмкости',
       description: 'Изготовление ёмкостей различного назначения и объёма'
@@ -222,7 +227,7 @@ const Index = () => {
       <section id="services" className="py-20 px-4">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16">Наши услуги</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {services.map((service, index) => (
               <Card 
                 key={index} 
